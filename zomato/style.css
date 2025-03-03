@@ -1,0 +1,147 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+#nav_bar {
+    width: 100%;
+    height: 450px;
+
+    background-image: url(./images/hero.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+
+}
+
+#zomato_logo {
+    width: 100px;
+    height: 45px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+#nav_bar_links {
+    text-align: right;
+    margin-top: -40px;
+    margin-right: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+    font-size: 20px;
+    color: whitesmoke;
+
+}
+
+a:hover {
+    color: red;
+}
+
+#zomato_icon {
+    width: 350px;
+    height: 70px;
+    margin-left: 40%;
+    margin-top: 70px;
+    opacity: 0.8;
+}
+
+h2 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 40px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#location, #restaurant {
+    width: 250px;
+    height: 50px;
+    margin: 20px 10px;
+    font-size: 20px;
+}
+
+#search_button {
+    height: 50px;
+    width: 70px;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 20px 10px;
+}
+
+
+
+input {
+    border-radius: 10px;
+}
+
+#order_online {
+    margin-left: 10%;
+    width: 35%;
+    height: 200px;
+    margin-top: 50px;
+    border: 1px solid black;
+    background-image: url(./images/online.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+
+}
+
+#dining {
+    margin-left: 55%;
+    width: 35%;
+    height: 200px;
+    margin-top: -200px;
+    border: 1px solid black;
+    background-image: url(./images/dining.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+h1 {
+    margin-top: 129.6px;
+    font-size: 40px;
+    background: #ffffff;
+    padding-left: 20px
+}
+
+p {
+    font-size: 20px;
+
+    padding-left: 20px;
+
+    background: #ffffff;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+#order_online:hover,#dining:hover {
+    color: tomato;
+    transform: scale(1.1);
+
+}
+
+
+
+button:hover{
+    transform: scale(1.1);
+}
+#location:hover, #restaurant:hover{
+    transform: scale(1.1);
+}
